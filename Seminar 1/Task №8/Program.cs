@@ -1,4 +1,4 @@
-﻿int N = -181, even_num = 2;
+﻿int N = 181, even_num = 2;
 if (N > 1)
 {
     while (even_num <= N)
