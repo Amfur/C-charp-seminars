@@ -1,4 +1,6 @@
-﻿int N = 181, even_num = 2;
+﻿int N = 0, even_num = 2;
+Console.WriteLine("Введите число:");
+N = Convert.ToInt32(Console.ReadLine());
 if (N > 1)
 {
     while (even_num <= N)
@@ -13,9 +15,8 @@ if (N > 1)
         }
         even_num = even_num + 2;
     }
-    Console.Write("\n");
 }
 else
 {
-    Console.WriteLine("\nМежду введёным числом и 1 отсутствуют чётные числа");
+    Console.WriteLine("Введено число меньше 1");
 }
