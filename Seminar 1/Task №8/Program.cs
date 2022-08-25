@@ -16,7 +16,23 @@ if (N > 1)
         even_num = even_num + 2;
     }
 }
+else if (N < 1)
+{
+    even_num = 0;
+    while (even_num >= N)
+    {
+        if (even_num == 0)
+        {
+            Console.Write("\n" + even_num);
+        }
+        else
+        {
+            Console.Write(" " + even_num);
+        }
+        even_num = even_num - 2;
+    }
+}
 else
 {
-    Console.WriteLine("Введено число меньше 1");
+    Console.WriteLine("Между 1 и 1 нет чётных числел");
 }
