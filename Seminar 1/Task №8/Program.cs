@@ -34,5 +34,5 @@ else if (N < 1)
 }
 else
 {
-    Console.WriteLine("Между 1 и 1 нет чётных числел");
+    Console.WriteLine("Между 1 и 1 нет чётных чисел");
 }
