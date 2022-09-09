@@ -5,7 +5,7 @@ if (0 < dayNumber && dayNumber < 8)
 {
     Console.WriteLine("Выходной");
 }
-else
+    else
 {
     Console.WriteLine("Будний день");
 }
