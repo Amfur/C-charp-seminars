@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int start = 100, finish = 999;
+int randomNumber = new Random().Next(start, finish + 1);    //создано случайное трёхзначное число
+int secondDigit = randomNumber%100/10;
+Console.WriteLine(randomNumber);
+Console.Write(secondDigit);
