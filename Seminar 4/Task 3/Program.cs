@@ -33,7 +33,7 @@ int index = 0;
 while(index < size)
 {
     randomNum = new Random().Next(-2147483648, 2147483647);
-    if (ProdDigits(randomNum) % SumDigits(randomNum) == 0) //Для исключения чисел содержащих в своих разрядах нули, можно ввести условие: "ProdDigits(randomNum) != 0 && ..."
+    if (SumDigits(randomNum) != 0 && ProdDigits(randomNum) % SumDigits(randomNum) == 0) //Для исключения чисел содержащих в своих разрядах нули, можно ввести условие: "ProdDigits(randomNum) != 0 && ..."
     {
         
         interesNums[index] = randomNum;
