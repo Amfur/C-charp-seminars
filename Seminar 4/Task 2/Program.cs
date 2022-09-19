@@ -9,12 +9,8 @@ while (tempNum != 0)
     if (digit != 0 && num%digit == 0)
     {
         sum += digit;
-        tempNum = tempNum / 10;
     }
-    else
-    {
         tempNum = tempNum / 10;
-    }
 }
 if (sum < 0)
 {
