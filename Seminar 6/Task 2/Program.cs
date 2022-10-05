@@ -5,7 +5,8 @@ for (int i = 0; i < coefLines.Length; i++)
 {
     coefLines[i] = Convert.ToDouble(Console.ReadLine());
 }
-Console.WriteLine($"Заданы прямые:\ny = {coefLines[0]}x + {coefLines[1]}\ny = {coefLines[2]}x + {coefLines[3]}");
+Console.WriteLine($"Заданы прямые:\ny = {coefLines[0]}x + {coefLines[1]}");
+Console.WriteLine($"y = {coefLines[2]}x + {coefLines[3]}");
 if (coefLines[0] - coefLines[2] == 0 && coefLines[1] - coefLines[3] == 0)
 {
     Console.WriteLine("Прямые совпадают");
