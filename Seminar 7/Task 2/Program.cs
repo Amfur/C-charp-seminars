@@ -22,10 +22,10 @@ int col = Convert.ToInt32(Console.ReadLine());
 
 if (str < 1 || str > exampleArray.GetLength(0) ||
     col < 1 || col > exampleArray.GetLength(1))
-    {
-        Console.WriteLine("В массиве нет элемента с указанными индексами");
-    }
+{
+    Console.WriteLine("В массиве нет элемента с указанными индексами");
+}
 else
-    {
-        Console.WriteLine(exampleArray[str-1,col-1]);
-    }
+{
+    Console.WriteLine(exampleArray[str - 1, col - 1]);
+}
